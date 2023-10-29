@@ -1,8 +1,6 @@
 import React from 'react'
-import { useState, useRef } from 'react'
+import { useState } from 'react'
 import canceled from '../assets/canceled.svg'
-
-
 
 export default function DownLoaderFiles() {
     const [fileUrls, setUrls] = useState([])
