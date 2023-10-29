@@ -5,13 +5,6 @@ import canceled from '../assets/canceled.svg'
 
 
 export default function DownLoaderFiles() {
-    /*const fileRef = useRef();
-    const handleSubmit = evt => {
-        evt.preventDefault();
-        console.log(fileRef.current.files)
-        console.dir(fileRef.current.files)
-    }*/
-
     const [fileUrls, setUrls] = useState([])
   
     const fileToDataUrl = file => {
